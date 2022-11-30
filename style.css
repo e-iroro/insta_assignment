@@ -66,7 +66,6 @@ main{
 
 /* post */
 .ig-post{
-  margin: 0 auto;
   width: fit-content;
   border-bottom: 1px solid #DBDBDB;
   margin-bottom: 20px;
@@ -132,6 +131,78 @@ main{
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px ;
+}
+
+
+.profile_section{
+  float: right;
+  width: 30%;
+}
+
+
+.profile_section--container{
+  width: 80%;
+  padding: 25px;
+  margin-top: 35px;
+}
+
+.user-profile{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-img{
+  width: 60px; 
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.profile-name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.profile-actions{
+  color: #0A99F6;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.secondary_text{
+  color: #8E8E8E;
+}
+
+.suggestions-header{
+  margin-top: 15px ;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 600;
+
+}
+
+.suggestion-accounts{
+  margin-top: 19px;
+}
+
+.suggestions-img{
+  width: 32px; 
+  height: 32px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 0.3px solid #C7C7C7;
+}
+
+.suggestions-footer{
+  font-size: 12px;
+  color: #C7C7C7;
+  margin-top: 30px;
 }
 
 
