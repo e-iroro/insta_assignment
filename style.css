@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --fontHeading: "Segoe UI";
+  --secondaryColor: #6a6f73;
+}
+
+
+nav{
+  width: 17%;
+  border-right: 1px solid #DBDBDB ;
+  height: 100%;
+  float: left;
+  position: fixed;
+}
+
+.nav_items{
+  padding: 15px;
+  margin-bottom:5px;
+  margin-left: 12px;
+  margin-right: 20px;
+  display: flex;
+  cursor: pointer;
+}
+
+.nav_items:hover{
+  background-color: #e4e4e4;
+  border-radius: 50px;
+}
+
+.nav_items i{
+  font-size: 24px;
+  margin-right: 30px;
+}
+
+.nav_items span{
+  font-size: 24px;
+  margin-right: 30px;
+}
+
+#logo{
+  padding: 10px;
+  margin-top: 25px ;
+  
+}
+
+.more{
+  margin-top: 75px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+main{
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 45%;
+}
+
+
+/* post */
+.ig-post{
+  margin: 0 auto;
+  width: fit-content;
+  border-bottom: 1px solid #DBDBDB;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.ig-post-header{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dp{
+  width: 32px; 
+  height: 32px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.user-info{
+  display: flex;
+}
+
+.ig-post-reactions {
+  margin-top: 10px;
+}
+.ig-post-reactions > i{
+  font-size: 24px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.ig-post-reactions > i:hover{
+  color: #c2c2c2;
+}
+
+.ig-post-caption{
+  margin: 10px 0;
+  line-height: 22px;
+  width: 476px;
+}
+
+.captions{
+  white-space: pre-line;
+  margin-top: -20px;
+}
+
+.fa-bookmark{
+  float: right;
+}
+.fa-ellipsis{
+  font-size: 20px;
+}
+
+
+.tags{
+  color: rgb(5, 5, 180);
+  cursor: pointer;
+}
+
+.ig-post-comments{
+  color: #c2c2c2;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px ;
+}
+
+
