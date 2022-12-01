@@ -63,6 +63,39 @@ main{
   width: 45%;
 }
 
+/* stories */
+.stories_section{
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.story{
+  width: 14%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.story > p{
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.stories_img{
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 2.5px;
+  display: flex;
+  
+}
+
+.stories_ring{
+  width: 59px;
+  height: 59px;
+}
 
 /* post */
 .ig-post{
